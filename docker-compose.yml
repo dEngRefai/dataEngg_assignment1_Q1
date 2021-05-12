@@ -17,7 +17,6 @@ services:
       - NIFI_ZK_CONNECT_STRING=zookeeper:2181
     volumes: 
       - ./input:/opt/nifi/nifi-current/input
-      - ./output:/opt/nifi/nifi-current/output
  
   minimal-jupyter-notebook:
     image: jupyter/minimal-notebook:latest
