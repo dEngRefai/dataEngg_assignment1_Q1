@@ -7,7 +7,7 @@ The pipeline structure is as follows:
 (Read the csv) >> (splits every record and transform it into a json record) >>
 (merge json records into one json file) >> (rename json file) >> (save to the nifi running Docker container and the mounted volume on local disk)
 
-The following YouTube video is a demo for running the implementation using the provided template (assiQ1_csvTOjson.xml):    
+The following YouTube video is a demo of running the implementation using the provided template (assiQ1_csvTOjson.xml):    
 
 https://youtu.be/jjLd0n7sScA
 
