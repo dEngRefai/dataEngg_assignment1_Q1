@@ -16,7 +16,7 @@ services:
       - NIFI_WEB_HTTP_PORT=8080
       - NIFI_ZK_CONNECT_STRING=zookeeper:2181
     volumes: 
-      - ./filesystem:/opt/nifi/nifi-current
+      - ./filesystem:/opt/nifi/nifi-current/filesystem
  
   minimal-jupyter-notebook:
     image: jupyter/minimal-notebook:latest
