@@ -25,5 +25,6 @@ The following are abbreviated steps for deploying the pipeline, a full detailed 
 7. the pipeline comes with a csv data file (data.csv), using the Jupiter notebook it is possible to create further data.
 
 
+*Note: Docker is provided in the utilities*
 
 oRefai       
