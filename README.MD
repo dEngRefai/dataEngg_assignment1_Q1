@@ -26,5 +26,6 @@ The following are abbreviated steps for deploying the pipeline, a full detailed 
 
 
 *Note: Docker is provided in the utilities*
+*Note: you may need to navigate to where directory input/ is and run the chmod command,,,  ~$ chmod 777 input *
 
 oRefai       
